@@ -1,0 +1,213 @@
+body {
+  background-color: rgba(47, 44, 96, 1);
+  margin: 0;
+  padding: 0;
+}
+
+.bunny {
+  margin: auto;
+  position: relative;
+  height: 600px;
+  width: 500px;
+  border: 1px solid black;
+}
+
+.ears {
+  height: 300px;
+  width: 260px;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+  font-size: 230px;
+  font-weight: bold;
+  position: relative;
+  padding: 20px 80px 0 80px;
+
+  .leftear {
+    height: 280px;
+    width: 115px;
+    color: rgba(70, 65, 70, 1);
+    text-align: center;
+    transform: scaleY(-1) rotate(40deg);
+    -webkit-transform: scaleY(-1) rotate(40deg);
+    float: left;
+    line-height: 230px;
+    display: inline-block;
+    position: relative;
+  }
+
+  .rightear {
+    height: 280px;
+    width: 115px;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    transform: rotate(200deg);
+    -webkit-transform: rotate(200deg);
+    float: right;
+    line-height: 230px;
+    display: inline-block;
+    position: relative;
+  }
+}
+
+.head {
+  background-color: rgba(255, 255, 255, 1);
+  height: 146px;
+  width: 146px;
+  border-radius: 100px;
+  position: relative;
+  left: 150px;
+  top: -110px;
+}
+
+.eyes {
+  text-align: center;
+  height: 120px;
+  width: 70px;
+  color: blue;
+  font-family: 'Frijole', cursive;
+  font-size: 170px;
+  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  position: relative;
+  line-height: 100px;
+  display: inline-block;
+  top: -270px;
+  left: 190px;
+}
+
+.nose {
+  text-align: center;
+  height: 30px;
+  width: 30px;
+  color: pink;
+  font-family: Ariel;
+  font-size: 30px;
+  font-weight: bold;
+  position: relative;
+  line-height: 28px;
+  display: inline-block;
+  top: -270px;
+  left: 130px;
+}
+
+.whiskers {
+  text-align: center;
+  height: 75px;
+  width: 170px;
+  text-align: center;
+  color: black;
+  font-family: Ariel;
+  font-size: 90px;
+  position: relative;
+  display: inline-block;
+  top: -240px;
+  left: 25px;
+
+  .lwhisk {
+    height: 70px;
+    width: 70px;
+    text-align: center;
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    float: left;
+    position: relative;
+    line-height: 60px;
+    display: inline-block;
+  }
+
+  .rwhisk {
+    height: 70px;
+    width: 70px;
+    text-align: center;
+    transform: scaleY(-1) rotate(270deg);
+    -webkit-transform: scaleY(-1) rotate(270deg);
+    float: right;
+    position: relative;
+    line-height: 60px;
+    display: inline-block;
+  }
+}
+
+.torso {
+  background-color: rgba(255, 255, 255, 1);
+  height: 220px;
+  width: 200px;
+  border-radius: 90px 90px 100px 100px;
+  position: relative;
+  top: -232px;
+  left: 122px;
+}
+
+.legs {
+  text-align: center;
+  height: 220px;
+  width: 300px;
+  font-family: 'Sigmar One', cursive;
+  font-size: 230px;
+  color: rgba(0, 0, 0, 1);
+  position: relative;
+  padding: 5px 5px 0 5px;
+  z-index: -1;
+  top: -395px;
+  left: 68px;
+
+
+  .leftleg {
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    transform: scaleY(-1) rotate(2deg);
+    -webkit-transform: scaleY(-1) rotate(2deg);
+    float: left;
+    position: relative;
+    line-height: 210px;
+  }
+
+  .rightleg {
+    color: rgba(70, 65, 70, 1);
+    text-align: center;
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    float: right;
+    position: relative;
+    line-height: 210px;
+  }
+}
+
+.paws {
+  height: 240px;
+  width: 165px;
+  text-align: center;
+  font-family: 'Dosis', sans-serif;
+  font-size: 350px;
+  color: rgba(70, 65, 70, 1);
+  position: relative;
+  top: -562px;
+  left: 80px;
+  padding: 5px 60px 0 60px;
+
+  .leftpaw {
+    width: 70px;
+    text-align: center;
+    transform: scaleY(-1) rotate(-20deg);
+    -webkit-transform: scaleY(-1) rotate(-20deg);
+    float: left;
+    position: relative;
+    line-height: 80px;
+    padding-bottom: 150px;
+  }
+
+  .rightpaw {
+    width: 70px;
+    text-align: center;
+    transform: rotate(160deg);
+    -webkit-transform: rotate(160deg);
+    float: right;
+    position: relative;
+    line-height: 80px;
+    padding-bottom: 150px;
+  }
+}
+
+.head, .torso {
+  border: 1px solid rgba(70, 65, 70, 1);
+}
